@@ -69,6 +69,12 @@ flex-box */
             /* margin: 0 10px; */
         }
         
+
+        #attribute{
+            color:white;
+        }
+
+        
         @media (max-width: 768px) {
             #title {
                 margin-top: 50px;
