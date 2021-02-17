@@ -1,0 +1,97 @@
+        /* autofit
+flex-box */
+        
+        body {
+            background-image: url('https://www.targetcenter.com/assets/img/2016_MARVEL_EVENT_IMAGE_665X374-294563b902.jpg');
+            text-align: center;
+            position: relative;
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 6% 5%;
+        }
+        
+        #title {
+            /* text-align: center; */
+            color: white;
+            background-color: black;
+            font-size: 5rem;
+            margin-bottom: 80px;
+            font-weight: 600;
+        }
+        
+        label {
+            color: white;
+            background-color: black;
+            font-size: 3rem;
+        }
+        
+        input[type="text"]::placeholder {
+            color: #e16868;
+        }
+        
+        .btn {
+            margin-bottom: 80px;
+            padding-left: 50px;
+            padding-right: 50px;
+            background-color: white;
+        }
+        
+        img {
+            width: 90%;
+            height: 30vh;
+            text-align: center;
+        }
+        
+        .row {
+            margin: 0;
+            display: flex;
+            margin: 0 -10px;
+        }
+        
+        #searchResult {
+            width: 100%;
+            /* text-align: center; */
+            position: relative;
+            justify-content: center;
+            display: flex;
+            flex-wrap: wrap;
+            /* margin: 0 -10px; */
+            margin: 0 10px;
+        }
+        
+        .card {
+            float: left;
+            width: 22%;
+            padding: 5px;
+            height: auto;
+            margin-left: 30px;
+            text-align: center;
+            /* margin: 0 10px; */
+        }
+        
+        @media (max-width: 768px) {
+            #title {
+                margin-top: 50px;
+                font-size: 50px;
+            }
+            label {
+                font-size: 40px;
+            }
+            .card {
+                width: 45%;
+            }
+        }
+        
+        @media (max-width: 425px) {
+            #title {
+                margin-top: 50px;
+                font-size: 25px;
+            }
+            label {
+                font-size: 20px;
+            }
+            .card {
+                width: 98%;
+                /* height: 11%; */
+            }
+        }
